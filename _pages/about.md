@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-W✨ Let's explore something interesting together~
+✨ Let's explore something interesting together~
 
 🖋️ I obtained my Bachelor's degree in Automation (Qian Xuesen's class, with honor) in 2021 from 🏫️[Xi'an Jiaotong University](http://en.xjtu.edu.cn/), China.
 
