@@ -25,5 +25,5 @@ social: true # includes social icons at the bottom of the page
 
 🌱 I started my Ph.D Cyber Science study at 🏫️[Xi'an Jiaotong University](http://en.xjtu.edu.cn/) in September, 2021.
 
-🔭 Previously I worked in **large language model**, **ethic software**.
+🔭 Previously I worked in **large language model**, **ethic software**, and **medical software fairness**.
 
