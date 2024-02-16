@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='http://en.xjtu.edu.cn/'>Xi'an Jiaotong University</a>. Ph.D Cyber Science
+subtitle: <a href='http://en.xjtu.edu.cn/'>Xi'an Jiaotong University</a>. Ph.D Cyber Science candidate
 
 profile:
   align: right
