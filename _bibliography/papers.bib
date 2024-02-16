@@ -95,11 +95,12 @@
   code = {https://github.com/Antimony5292/FairNeuron},
   video = {https://youtu.be/pAe4os3JjA0},
   arxiv = {https://arxiv.org/pdf/2204.02567},
-  selected = {true},
   doi = {10.1145/3510003.3510087},
   abstract = {With Deep Neural Network (DNN) being integrated into a growing number of critical systems with far-reaching impacts on society, there are increasing concerns on their ethical performance, such as fairness. Unfortunately, model fairness and accuracy in many cases are contradictory goals to optimize during model training. To solve this issue, there has been a number of works trying to improve model fairness by formalizing an adversarial game in the model level. This approach introduces an adversary that evaluates the fairness of a model besides its prediction accuracy on the main task, and performs joint-optimization to achieve a balanced result. In this paper, we noticed that when performing backward prop-agation based training, such contradictory phenomenon are also observable on individual neuron level. Based on this observation, we propose Fairneuron, a Dnn model automatic repairing tool, to mitigate fairness concerns and balance the accuracy-fairness trade-off without introducing another model. It works on detecting neurons with contradictory optimization directions from accuracy and fairness training goals, and achieving a trade-off by selective dropout. Comparing with state-of-the-art methods, our approach is lightweight, scaling to large models and more efficient. Our eval-uation on three datasets shows that Fairneuron can effectively improve all models' fairness while maintaining a stable utility.},
   eventtitle = {2022 IEEE/ACM 44th International Conference on Software Engineering (ICSE)},
-  keywords = {Deep learning,fairness,Games,neural networks,Neural networks,Neurons,path analysis,Predictive models,Search problems,Training}
+  keywords = {Deep learning,fairness,Games,neural networks,Neural networks,Neurons,path analysis,Predictive models,Search problems,Training},
+  preview={ICSE22.gif},
+  selected = {true}
 }
 
 @inproceedings{gaoCILIATEFairerClassBased2023,
@@ -120,5 +121,7 @@
   urldate = {2023-07-23},
   abstract = {Due to the model aging problem, Deep Neural Networks (DNNs) need updates to adjust them to new data distributions. The common practice leverages incremental learning (IL), e.g., Class-based Incremental Learning (CIL) that updates output labels, to update the model with new data and a limited number of old data. This avoids heavyweight training (from scratch) using conventional methods and saves storage space by reducing the number of old data to store. But it also leads to poor performance in fairness. In this paper, we show that CIL suffers both dataset and algorithm bias problems, and existing solutions can only partially solve the problem. We propose a novel framework, CILIATE, that fixes both dataset and algorithm bias in CIL. It features a novel differential analysis guided dataset and training refinement process that identifies unique and important samples overlooked by existing CIL and enforces the model to learn from them. Through this process, CILIATE improves the fairness of CIL by 17.03\%, 22.46\%, and 31.79\% compared to state-of-the-art methods, iCaRL, BiC, and WA, respectively, based on our evaluation on three popular datasets and widely used ResNet models. Our code is available at https://github.com/Antimony5292/CILIATE.},
   isbn = {9798400702211},
-  keywords = {fairness,incremental learning,neural network}
+  keywords = {fairness,incremental learning,neural network},
+  preview={brownian-motion.gif},
+  selected = {true}
 }
